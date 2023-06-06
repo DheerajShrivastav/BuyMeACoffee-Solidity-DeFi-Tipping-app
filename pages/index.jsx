@@ -231,7 +231,7 @@ export default function Home() {
                 <br />
 
                 <input
-                class="outlined-text-field__label"
+                className="outlined-text-field__label"
                   id="name"
                   type="text"
                   placeholder="Admin"
@@ -247,7 +247,7 @@ export default function Home() {
                 <br />
 
                 <textarea
-                class="outlined-text-field__label"
+                className="outlined-text-field__label"
                 // className={styles.textarea_D}
                   rows={3}
                   placeholder="Enjoy your coffee!"
