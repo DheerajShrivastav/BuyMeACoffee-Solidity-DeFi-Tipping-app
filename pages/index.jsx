@@ -203,7 +203,7 @@ export default function Home() {
         buyMeACoffee.off("NewMemo", onNewMemo);
       }
     }
-  }, []);
+  }, );
 
   return (
     <div className={styles.container}>
@@ -279,7 +279,9 @@ export default function Home() {
           </div>
         ) : (
 
-            <button onClick={connectWallet} className={styles.button} styles="border-radius:50px"> Connect your wallet </button>
+            // <button onClick={connectWallet} className={styles.button} styles="border-radius:50px"> Connect your wallet </button>
+            <button onClick={connectWallet} className={styles.button}>Connect your wallet</button>
+
 
           )}
       </main>
@@ -289,7 +291,7 @@ export default function Home() {
       {currentAccount && (memos.map((memo, idx) => {
         return (
           <div key={idx} style={{ border: "2px solid", "borderRadius": "5px", padding: "5px", margin: "5px" }}>
-            <p style={{ "fontWeight": "bold" }}>"{memo.message}"</p>
+            <p style={{ "fontWeight": "bold" }}>&quot;{memo.message}&quot;</p>
             <p>From: {memo.name} at {memo.timestamp.toString()}</p>
           </div>
         )
