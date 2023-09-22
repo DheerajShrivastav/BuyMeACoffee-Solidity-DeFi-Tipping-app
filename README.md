@@ -1,5 +1,6 @@
 This is a [Next. js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-you view the project here:- [Click Here](https://dheerajshrivastav.github.io/BuyMeACoffee-Solidity-DeFi-Tipping-app/0
+
+you view the project here:- [`Click Here`](https://dheerajshrivastav.github.io/BuyMeACoffee-Solidity-DeFi-Tipping-app/)
 
 ## Getting Started
 
